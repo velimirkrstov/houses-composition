@@ -27,6 +27,7 @@ namespace Houses
         public int EstimateDays(int houseCount)
         {
             return houseCount * daysPerHouse;
+            //
         }
     }
 }
