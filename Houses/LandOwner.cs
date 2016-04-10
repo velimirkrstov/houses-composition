@@ -29,6 +29,7 @@ namespace Houses
             double totalHouses = painters.Select(p => p.PaintFor(totalDays)).Sum();
 
             Console.WriteLine("\nPainted {0:0} houses.", totalHouses);
+            //asda
 
         }
     }
